@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    padding: 10px 130px;
+}
+
+/* Css for navigation */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+    padding-top: 20px;
+}
+
+.nav-img{
+    width: 98px;
+    height: 82px;
+}
+
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: bolder;
+    gap: 100px;
+}
+
+.nav-ul li:hover{
+    color: #4E5DC0;
+    text-decoration: underline #4E5DC0;
+}
+
+.nav-button{
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    background-color: #4E5DC0;
+    border-radius: 7px;
+}
+
+/* Css for main content  */
+
+.main{
+    display: flex;
+    margin:  0 100px 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+}
+
+.main-text{
+    height: 400px;
+    width: 300px;
+}
+
+.main-text p{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.main-hr{
+    margin: 15px 0;
+    margin-right: 135px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.main-img1{
+    width: 350px;
+    height: 265px;
+}
+
+.main-img2{
+    width: 350px;
+    height: 300px;
+}
+
+/* Css for footer  */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer-box1{
+    
+}
+
+.footer-img{
+    height: 70px;
+    width: 80px;
+}
+
+.footer-box1 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-box3 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-box2 p{
+    width: 300px;
+}
+
+.f-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flogo-container{
+    padding: 15px;
+    background-color: #4E5DC0;
+    display: flex;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-img{
+    background: #4E5DC0;
+    width: 15px;
+    height: 15px;
+}
+
+.footer p,li {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.footer h4{
+    color: #4E5DC0;
+    letter-spacing: 2px;
+}
+
+.footer-box1 h4{
+    text-decoration: underline;
+}
+
+..footer-box1,.footer-box2,.footer-box3,.f-flex{
+    padding: 20px;
+}
